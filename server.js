@@ -6,7 +6,7 @@ const express = require("express"),
     cors = require("cors"),
     routes = require("./routes");
 
-const urlMongo = "mongodb://localhost:27017/comparador";
+const urlMongo = "mongodb://localhost:27017/users";
 
 mongoose.connect(urlMongo, {
     useNewUrlParser: true,
